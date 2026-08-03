@@ -11,6 +11,12 @@ env = {
     virtual_network_name = "dev_vnrt"
     address_space        = ["10.0.0.0/16"]
   }
+  prod2 = {
+    resource_group_name  = "Dev-rg"
+    location             = "westus"
+    virtual_network_name = "dev_vnrt"
+    address_space        = ["10.0.0.0/16"]
+  }
 }
 
 dev_vm = {
